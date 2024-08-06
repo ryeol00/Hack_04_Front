@@ -11,6 +11,10 @@
     font-family: 'DWImpactamin';
 }
 
+.home-header-wrapper {
+    margin-left: 41.5px;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -28,22 +32,7 @@ body {
     flex-direction: column; /* 수직 정렬 */
     width: 100%; /* 전체 너비 사용 */
 }
-.header {
-    display: flex;
-    align-items: center; /* 수직 중앙 정렬 */
-    justify-content: flex-start; /* 수평 좌측 정렬 */
-    padding-right: 900px;
-    padding-bottom: 80px; /* 헤더와 버튼 박스 사이의 간격 줄이기 */
-        
-}
-.category-link {
-    text-decoration: none;
-    color: black;
-    
-}
-.category-link:hover {
-    color: #172D9D;
-}
+
 
 .main-box {
     display: flex;
@@ -51,14 +40,14 @@ body {
     align-items: center; /* 수직 중앙 정렬 */
     padding: 20px; /* 내부 여백 추가 */
     flex: 1; /* 남은 공간을 차지하도록 설정 */
-    margin-left: 90px;
+    margin-left: 50px;
     margin-top: -85px;/* 버튼 박스와 메인 박스 사이의 간격 줄이기 */
     
 }
 
 .main-title {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: left; /* 제목을 왼쪽 정렬 */
     margin-bottom: 30px; /* 제목과 본문 사이의 간격 설정 */
 }
@@ -106,6 +95,7 @@ body {
     width: 212px;
     height: 179px;
     background-color: #D9D9D9;
+    margin-left: 20px;
 }
 
 .button-wrapper {

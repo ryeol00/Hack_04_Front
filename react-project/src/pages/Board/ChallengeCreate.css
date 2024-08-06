@@ -1,0 +1,13 @@
+.create-post-link {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .create-post-link:hover {
+    background-color: #45a049;
+  }

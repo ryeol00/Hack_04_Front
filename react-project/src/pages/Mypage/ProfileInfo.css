@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../assets/fonts/font.ttf') format('truetype');
+}
+
+
+
+.ProfileBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    font-weight: 900;
+    border: 2.5px solid;
+    border-radius: 15px;
+    border-color: #172D9D;
+    width: 1032px;
+    height: 418px;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 12%;
+    
+}
+
+.ProfileImg {
+    width: 128px;
+    height: 128px;
+    justify-content: center;
+   
+    margin-top: 3%;
+}
+
+.Name {
+    font-size: 32px;
+    font-weight: lighter;
+    justify-content: center;
+    
+}
+
+.Point {
+    font-size: 32px;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.Buttons {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;   
+}
+
+.buttons {
+    width: 118px;
+    height: 40px;
+    background-color: #172D9D;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #172D9D;
+}
+
+
+.nim {
+    color: #6F73FF;
+}
+
+.P {
+    color: #6F73FF;
+}

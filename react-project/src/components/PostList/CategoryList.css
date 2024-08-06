@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'DWImpactamin';
+  src: url('../../assets/fonts/font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DWImpactamin';
+}
+
+.category-nav {
+  padding: 5px;
+  background-color: #172D9D;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  width: 540px;
+  height: 52px;
+}
+
+.category-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  width: 109.6px;
+  height: 34.2px;
+  padding: 20px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center; /* 텍스트 중앙 정렬 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* transform 추가 */
+}
+
+.category-item:hover {
+  background-color: #3143B6;
+  color: #fff;
+  transform: scale(0.95); /* 호버 시 크기 약간 줄이기 */
+}

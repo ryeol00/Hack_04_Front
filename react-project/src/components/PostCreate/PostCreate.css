@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'DWImpactamin';
+  src: url('../../assets/fonts/font.ttf') format('truetype'); /* 폰트 파일 경로 및 포맷 지정 */
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DWImpactamin';
+}
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  align-self: flex-start; /* 좌측 정렬 */
+  padding: 20px 0 ;
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-bottom:50px;
+}
+
+.create-post-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+   
+  }
+
+.create-post-name {
+  margin-top: -50px;
+  color: #172D9D;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: center;
+}
+  
+.create-post-form {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.form-name {
+  color: #172D9D;
+  font-size: 30px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.category-select {
+  margin-bottom: 30px;
+  width: 649px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#000" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+.category-select:focus {
+  outline: none;
+  background-color: #f8f8f8;
+}
+
+.title-box {
+  width: 650px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+}
+
+.content-box {
+  font-size: 16px;
+  width: 650px;
+  height: 298px;
+  padding: 20px;
+  padding-left: 10px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+}
+
+.content-box:focus {
+  outline: none;
+}
+
+.date-box {
+  width: 650px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+}
+
+
+.button-form { 
+  margin-top: 50px;
+  align-items: center;
+}
+
+.create-button {
+  width: 281.57px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px;
+  margin-left: 10%;
+  background-color: #172D9D;
+  transition: background-color 0.3s ease, text-decoration 0.3s ease;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+  
+.create-button:hover {
+    background-color: #172D9D;
+    text-decoration: underline;
+  }
+  
+.back-button {
+  width: 281.57px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px;
+  margin-left: 12.5px;
+  background-color: #4A58CE;
+  transition: background-color 0.3s ease, text-decoration 0.3s ease;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.back-button:hover {
+  background-color: #4A58CE;
+    text-decoration: underline;
+}
+
+footer {
+  margin-top: 30%;
+}
+  

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'DWImpactamin';
+    src: url('../../assets/fonts/font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DWImpactamin';
+}
+
+.search-bar {
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.search-bar input {
+    width: 700px;
+    height: 52px;
+    padding: 10px 10px 10px 70px; /* 왼쪽 패딩 추가 */
+    background-color: #4A58CE;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-image: url('../../assets/images/SearchIcon.png'); /* 아이콘 경로 */
+    background-position: 22px center; /* 아이콘 위치 */
+    background-repeat: no-repeat;
+    background-size: 35px 34px;
+}
+
+.search-bar input::placeholder {
+    color: white; /* 플레이스홀더 색상 */
+    font-size: 20px; /* 플레이스홀더 폰트 크기 */
+    
+  }
+

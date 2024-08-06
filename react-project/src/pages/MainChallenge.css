@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'DWImpactamin';
+    src: url('../assets/fonts/font.ttf') format('truetype'); /* 폰트 파일 경로 및 포맷 지정 */
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DWImpactamin';
+}
+
+.MainChallenge { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; /* 제목을 왼쪽으로 정렬 */
+    width: 76%; /* 너비를 100%로 설정하여 전체 공간을 사용 */
+    
+    
+}
+
+.TitleMainchallenge {
+    margin-left: 7%;
+    font-size: 44px;
+    font-weight: 400;
+    color: black;
+}
+
+.TitleStellengeLogo{
+    margin-left: 2%;
+}
+
+
+.ChallengeContents {
+    margin-top: 4%;
+    align-items: center;
+    display: flex;
+    margin-left: 2%;
+}
+
+.BlueText {
+    color: rgb(23, 23, 179);
+}

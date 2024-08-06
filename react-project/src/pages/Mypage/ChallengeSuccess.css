@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../assets/fonts/font.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DWImpactamin';
+}
+
+.ChallengeSuccessBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1032px;
+    height: 418px;
+    box-shadow: 0 0 10px 2px gray;
+    border-radius: 15px;
+    margin-left: 12%;
+   
+    
+}
+
+.Today {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.Date {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: #172D9D;
+    font-weight: 400;
+}
+
+.NoDrinkSmoke {
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+
+.Daybutton {
+    width: 260px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50%;
+}
+
+.Messege {
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    
+    margin-top: 60px;
+}
+
+.buttons2 {
+    width: 260px;
+    height: 88px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: none;
+}

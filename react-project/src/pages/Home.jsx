@@ -1,11 +1,12 @@
 import React from 'react';
-import logo1 from '../assets/logo1.png';
+import logo1 from '../assets/images/logo1.png';
 import './Home.css';
-import logo2 from '../assets/logo2.png';
+import logo2 from '../assets/images/logo2.png';
 import { useNavigate } from 'react-router-dom';
-import homeIcon from '../assets/HomeIcon.png';
-import loginIcon from '../assets/LoginIcon.png';
+import homeIcon from '../assets/images/HomeIcon.png';
+import loginIcon from '../assets/images/LoginIcon.png';
 import { Link } from 'react-router-dom';
+import Header from '../components/Header';
 
 
 function HomePage() {
@@ -20,11 +21,8 @@ function HomePage() {
     };
     return (
         <div className='container'>
-            <div className='header'>
-                <img className='homelogo' src={logo1} alt="Logo1" />
-                <h3 className='category'>
-                    <Link to='/challenge' className='category-link'>CHALLENGE</Link>
-                </h3> 
+            <div className='home-header-wrapper'>
+                <Header />
             </div>
             <div className='button-container'>
                 <div className='button-wrapper' onClick={goToHome}>

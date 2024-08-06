@@ -1,0 +1,14 @@
+/* src/pages/MyPage/Mypage.css */
+@font-face {
+    font-family: 'DWImpactamin';
+    src: url('../../assets/fonts/font.ttf') format('truetype'); /* 폰트 파일 경로 및 포맷 지정 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MyPage {
+    width: 100%;
+    max-width: 100%;
+    
+}
+

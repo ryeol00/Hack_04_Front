@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'DWImpactamin';
+  src: url('../assets/fonts/font.ttf') format('truetype'); /* 폰트 파일 경로 및 포맷 지정 */
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DWImpactamin';
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px #e7e7e7;
+    font-family: 'MyFont';
+  }
+
+
+  
+  .footer-pages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .page-section {
+    text-align: center;
+  }
+  
+  .page-section p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .blue-text {
+    color: rgb(23, 23, 179);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .black-text {
+    color: black;
+  }
+  
+  .footer-logo-container {
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+    color: #030101;
+  }
+  

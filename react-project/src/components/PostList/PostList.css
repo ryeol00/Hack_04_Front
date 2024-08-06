@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DWImpactamin';
+}
+
+.post-list-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+.header-wrapper {
+    display: flex;
+    width: 100%;
+    align-self: flex-start; /* 좌측 정렬 */
+    padding: 20px 0 ;
+    margin-top: -30px;
+    margin-left: -20px;
+    margin-bottom:50px;
+}
+
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px; /* 최대 너비 설정 */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수평 중앙 정렬 */
+    gap: 20px; /* 검색바와 카테고리 사이의 간격 */
+    margin-bottom: 20px; /* 카테고리와 본문 사이의 간격 */
+}
+
+.name-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 650px;
+    align-self: flex-start;
+  }
+
+.post-list-name {
+    font-size: 80px;
+    font-weight: 500;
+    color: #0500CD;
+    align-self: flex-start; /* 좌측 정렬 */
+}
+
+.button-img {
+    width: 72px;
+    height: 72px;
+    margin-top: 10px;
+}
+
+
+.category-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* 카테고리와 검색바를 중앙 정렬 */
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post-list-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 목록 중앙 정렬 */
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개의 열을 고정 */
+    gap: 20px; /* 게시물들 사이의 간격 */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* 게시물 목록의 너비를 전체로 설정 */
+}
+
+.post-item {
+    background-color: #172D9D;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%; /* 각 게시물 박스의 너비를 부모 요소에 맞춤 */
+    height: 137px; /* 각 게시물 박스의 높이 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    box-sizing: border-box;
+}
+
+.post-item:hover {
+    transform: translateY(-5px);
+}
+
+.post-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.post-title {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.post-date {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.likes-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.like-img {
+    width: 19.61px;
+    height: 19.4px;
+}
+
+.post-likes {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.post-item.empty-box {
+    background-color: #D9D9D9;
+}
+
+.div-img {
+    margin-top: 30px;
+    margin-bottom: 15%;
+    width: 100%;
+    height: auto;
+}
+
+
